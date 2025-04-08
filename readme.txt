@@ -1,13 +1,14 @@
 === Content Scheduler Pro ===
-Contributors: (your username here)
-Donate link: https://example.com/donate
-Tags: content, schedule, scheduling, timed content, visibility, conditional content
+Contributors: hacxk  
+Tags: content, schedule, scheduling, timed content, visibility, conditional content, time-sensitive, announcements, events, promotions, automation, shortcode, date-based, seasonal
 Requires at least: 5.8
 Tested up to: 6.7
 Stable tag: 1.0.0
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Display content on your site for a specific date range with a simple shortcode. Perfect for announcements, sales, events, and more!
 
 Display content on your site for a specific date range with a simple shortcode. Perfect for announcements, sales, events, and more!
 
@@ -31,6 +32,8 @@ Perfect for:
 * **Simple Scheduling**: Set both start and end dates/times for your content
 * **Flexible Placement**: Add your scheduled content anywhere using a simple shortcode
 * **Mobile-Friendly**: Responsive design works on all devices
+* **Timezone Support**: Use WordPress timezone or set a custom timezone
+* **Multiple Languages**: Includes Spanish translation with more to come
 * **Lightweight**: No bloat, just the features you need
 * **Developer Friendly**: Clean code with hooks for customization
 
