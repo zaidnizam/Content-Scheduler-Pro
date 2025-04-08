@@ -1,0 +1,447 @@
+# Copyright (C) 2025 hacxk
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Content Scheduler Pro 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/content-scheduler-pro\n"
+"Last-Translator: hacxk \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-08T15:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.0\n"
+"X-Domain: content-scheduler-pro\n"
+
+#. Plugin Name of the plugin
+msgid "Content Scheduler Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/content-scheduler-pro/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Schedule content to appear and disappear automatically at set times."
+msgstr ""
+
+#. Author of the plugin
+msgid "hacxk"
+msgstr ""
+
+#: includes/class-admin.php:153
+msgid "Scheduled"
+msgstr ""
+
+#: includes/class-admin.php:155
+msgid "Active"
+msgstr ""
+
+#: includes/class-admin.php:157
+msgid "Expired"
+msgstr ""
+
+#: includes/class-admin.php:186
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-admin.php:193
+msgid "Invalid content ID."
+msgstr ""
+
+#: includes/class-admin.php:200
+msgid "Content not found."
+msgstr ""
+
+#: includes/class-admin.php:226
+msgid "Active from:"
+msgstr ""
+
+#: includes/class-admin.php:227
+msgid "Active until:"
+msgstr ""
+
+#: includes/class-meta-boxes.php:53
+msgid "Scheduling Options"
+msgstr ""
+
+#: includes/class-meta-boxes.php:61
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-meta-boxes.php:127
+msgid "Start Date"
+msgstr ""
+
+#: includes/class-meta-boxes.php:134
+msgid "Start Time"
+msgstr ""
+
+#: includes/class-meta-boxes.php:141
+msgid "End Date"
+msgstr ""
+
+#: includes/class-meta-boxes.php:148
+msgid "End Time"
+msgstr ""
+
+#: includes/class-meta-boxes.php:162
+msgid "Set the start and end dates/times for when this content should be displayed. Using WordPress timezone: %s"
+msgstr ""
+
+#: includes/class-meta-boxes.php:166
+msgid "Change"
+msgstr ""
+
+#: includes/class-meta-boxes.php:184
+msgid "Use this shortcode to display the scheduled content:"
+msgstr ""
+
+#: includes/class-meta-boxes.php:188
+msgid "Copy"
+msgstr ""
+
+#: includes/class-meta-boxes.php:192
+msgid "Place this shortcode in any post, page, or widget where you want the scheduled content to appear."
+msgstr ""
+
+#: includes/class-post-types.php:41
+msgctxt "Post type general name"
+msgid "Scheduled Contents"
+msgstr ""
+
+#: includes/class-post-types.php:42
+msgctxt "Post type singular name"
+msgid "Scheduled Content"
+msgstr ""
+
+#: includes/class-post-types.php:43
+msgctxt "Admin Menu text"
+msgid "Content Scheduler"
+msgstr ""
+
+#: includes/class-post-types.php:44
+msgctxt "Add New on Toolbar"
+msgid "Scheduled Content"
+msgstr ""
+
+#: includes/class-post-types.php:45
+msgid "Add New"
+msgstr ""
+
+#: includes/class-post-types.php:46
+msgid "Add New Scheduled Content"
+msgstr ""
+
+#: includes/class-post-types.php:47
+msgid "New Scheduled Content"
+msgstr ""
+
+#: includes/class-post-types.php:48
+msgid "Edit Scheduled Content"
+msgstr ""
+
+#: includes/class-post-types.php:49
+msgid "View Scheduled Content"
+msgstr ""
+
+#: includes/class-post-types.php:50
+msgid "All Scheduled Contents"
+msgstr ""
+
+#: includes/class-post-types.php:51
+msgid "Search Scheduled Contents"
+msgstr ""
+
+#: includes/class-post-types.php:52
+msgid "Parent Scheduled Contents:"
+msgstr ""
+
+#: includes/class-post-types.php:53
+msgid "No scheduled contents found."
+msgstr ""
+
+#: includes/class-post-types.php:54
+msgid "No scheduled contents found in Trash."
+msgstr ""
+
+#: includes/class-rating.php:95
+msgid "Enjoying Content Scheduler Pro?"
+msgstr ""
+
+#: includes/class-rating.php:101
+msgid "You've created %d scheduled content items with Content Scheduler Pro! If you find this plugin useful, would you mind taking a moment to rate it? It really helps to support the plugin and helps others discover it too!"
+msgstr ""
+
+#: includes/class-rating.php:107
+msgid "Rate Now"
+msgstr ""
+
+#: includes/class-rating.php:110
+msgid "Remind Me Later"
+msgstr ""
+
+#: includes/class-rating.php:113
+msgid "I've Already Rated It"
+msgstr ""
+
+#: includes/class-settings.php:137
+msgid "Settings"
+msgstr ""
+
+#: includes/class-settings.php:145
+msgid "How to Use"
+msgstr ""
+
+#: includes/class-settings.php:167
+msgid "Timezone Settings"
+msgstr ""
+
+#: includes/class-settings.php:174
+msgid "Timezone Source"
+msgstr ""
+
+#: includes/class-settings.php:182
+msgid "Custom Timezone"
+msgstr ""
+
+#: includes/class-settings.php:241
+msgid "Welcome to Content Scheduler Pro! 👋"
+msgstr ""
+
+#: includes/class-settings.php:242
+msgid "This guide will walk you through scheduling content to appear and disappear automatically on your WordPress site. It's super easy!"
+msgstr ""
+
+#: includes/class-settings.php:246
+msgid "Step 1: Create Your Content"
+msgstr ""
+
+#: includes/class-settings.php:251
+msgid "Start by clicking \"Add New\" under the Content Scheduler menu."
+msgstr ""
+
+#: includes/class-settings.php:252
+msgid "Give your content a title and use the WordPress editor to create your content just like you would with a regular post. Add text, images, buttons - whatever you need!"
+msgstr ""
+
+#: includes/class-settings.php:253
+msgid "Pro Tip:"
+msgstr ""
+
+#: includes/class-settings.php:253
+msgid "Make your scheduled content stand out by adding bright colors or eye-catching images."
+msgstr ""
+
+#: includes/class-settings.php:259
+msgid "Step 2: Set Your Schedule"
+msgstr ""
+
+#: includes/class-settings.php:262
+msgid "Below the content editor, you'll find the \"Scheduling Options\" box."
+msgstr ""
+
+#: includes/class-settings.php:263
+msgid "Set when your content should start appearing and when it should disappear:"
+msgstr ""
+
+#: includes/class-settings.php:265
+msgid "Start Date & Time: When your content will begin showing"
+msgstr ""
+
+#: includes/class-settings.php:266
+msgid "End Date & Time: When your content will stop showing"
+msgstr ""
+
+#: includes/class-settings.php:268
+msgid "Remember:"
+msgstr ""
+
+#: includes/class-settings.php:268
+msgid "The time is based on the timezone in your settings."
+msgstr ""
+
+#: includes/class-settings.php:277
+msgid "Step 3: Get Your Shortcode"
+msgstr ""
+
+#: includes/class-settings.php:283
+msgid "On the right side of the screen, you'll see a \"Shortcode\" box with your unique shortcode."
+msgstr ""
+
+#: includes/class-settings.php:284
+msgid "Click the \"Copy\" button to copy it to your clipboard. It will look something like:"
+msgstr ""
+
+#: includes/class-settings.php:286
+msgid "Don't forget to save your content by clicking the \"Publish\" button!"
+msgstr ""
+
+#: includes/class-settings.php:292
+msgid "Step 4: Place Your Shortcode"
+msgstr ""
+
+#: includes/class-settings.php:295
+msgid "Now that you have your shortcode, you can place it anywhere on your site:"
+msgstr ""
+
+#: includes/class-settings.php:297
+msgid "In a post or page"
+msgstr ""
+
+#: includes/class-settings.php:298
+msgid "In a widget area"
+msgstr ""
+
+#: includes/class-settings.php:299
+msgid "In your theme's template files (for developers)"
+msgstr ""
+
+#: includes/class-settings.php:301
+msgid "Just paste your shortcode where you want the scheduled content to appear."
+msgstr ""
+
+#: includes/class-settings.php:310
+msgid "Step 5: Manage Your Scheduled Content"
+msgstr ""
+
+#: includes/class-settings.php:311
+msgid "You can view all your scheduled content by going to Content Scheduler → All Scheduled Contents."
+msgstr ""
+
+#: includes/class-settings.php:312
+msgid "From here, you can:"
+msgstr ""
+
+#: includes/class-settings.php:314
+msgid "See which content is active, scheduled, or expired"
+msgstr ""
+
+#: includes/class-settings.php:315
+msgid "Edit existing content or schedule"
+msgstr ""
+
+#: includes/class-settings.php:316
+msgid "Preview how your content will look"
+msgstr ""
+
+#: includes/class-settings.php:317
+msgid "Quick-copy shortcodes"
+msgstr ""
+
+#: includes/class-settings.php:322
+msgid "Questions & Troubleshooting"
+msgstr ""
+
+#: includes/class-settings.php:323
+msgid "My content isn't showing up!"
+msgstr ""
+
+#: includes/class-settings.php:325
+msgid "Check if the current time is between your start and end times"
+msgstr ""
+
+#: includes/class-settings.php:326
+msgid "Make sure your timezone settings are correct"
+msgstr ""
+
+#: includes/class-settings.php:327
+msgid "Verify that you published your content (not just saved as draft)"
+msgstr ""
+
+#: includes/class-settings.php:328
+msgid "Try clearing your cache if your site uses caching"
+msgstr ""
+
+#: includes/class-settings.php:331
+msgid "The shortcode just shows as text on my page"
+msgstr ""
+
+#: includes/class-settings.php:333
+msgid "Make sure the plugin is activated"
+msgstr ""
+
+#: includes/class-settings.php:334
+msgid "Try using a different block or widget to add the shortcode"
+msgstr ""
+
+#: includes/class-settings.php:339
+msgid "That's it! Now you can schedule content to appear and disappear automatically across your site."
+msgstr ""
+
+#: includes/class-settings.php:340
+msgid "If you love using Content Scheduler Pro, please consider leaving us a review!"
+msgstr ""
+
+#: includes/class-settings.php:343
+msgid "Leave a Review"
+msgstr ""
+
+#: includes/class-settings.php:434
+msgid "Use WordPress Timezone Setting"
+msgstr ""
+
+#: includes/class-settings.php:438
+msgid "(Currently: %s)"
+msgstr ""
+
+#: includes/class-settings.php:446
+msgid "Use Custom Timezone"
+msgstr ""
+
+#: includes/class-settings.php:450
+msgid "Select whether to use the WordPress timezone setting or a custom timezone for scheduled content."
+msgstr ""
+
+#: includes/class-settings.php:472
+msgid "Select a timezone"
+msgstr ""
+
+#: includes/class-settings.php:484
+msgid "Select a timezone to use for scheduling content. This will only be used if \"Use Custom Timezone\" is selected above."
+msgstr ""
+
+#: includes/class-settings.php:551
+msgid "Africa"
+msgstr ""
+
+#: includes/class-settings.php:570
+msgid "America"
+msgstr ""
+
+#: includes/class-settings.php:592
+msgid "Asia"
+msgstr ""
+
+#: includes/class-settings.php:612
+msgid "Australia & Pacific"
+msgstr ""
+
+#: includes/class-settings.php:627
+msgid "Europe"
+msgstr ""
+
+#: includes/class-settings.php:661
+msgid "Timezone Help"
+msgstr ""
+
+#: includes/class-settings.php:662
+msgid "Timezone Settings Help"
+msgstr ""
+
+#: includes/class-settings.php:663
+msgid "The timezone setting affects when your scheduled content appears and disappears."
+msgstr ""
+
+#: includes/class-settings.php:665
+msgid "<strong>WordPress Timezone:</strong> Uses the timezone set in Settings → General. If you manage all your site date/time settings there, this is the simplest option."
+msgstr ""
+
+#: includes/class-settings.php:666
+msgid "<strong>Custom Timezone:</strong> Allows you to select a specific timezone just for scheduled content, which can be different from your main WordPress timezone."
+msgstr ""
+
+#: includes/class-settings.php:668
+msgid "If your content is not appearing when expected, double-check that your timezone settings match your expectations."
+msgstr ""

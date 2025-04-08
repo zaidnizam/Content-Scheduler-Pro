@@ -1,0 +1,266 @@
+/**
+ * Admin styles for Content Scheduler Pro
+ */
+
+/* Status indicators */
+.csp-status {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.csp-status-scheduled {
+    background-color: #e1f5fe;
+    color: #0288d1;
+    border: 1px solid #b3e5fc;
+}
+
+.csp-status-active {
+    background-color: #e8f5e9;
+    color: #388e3c;
+    border: 1px solid #c8e6c9;
+}
+
+.csp-status-expired {
+    background-color: #fbe9e7;
+    color: #d32f2f;
+    border: 1px solid #ffccbc;
+}
+
+/* Scheduling meta box */
+.csp-scheduling-container {
+    padding: 12px;
+    background-color: #f9fafb;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.csp-scheduling-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.csp-scheduling-table th {
+    text-align: left;
+    width: 120px;
+    padding: 12px 10px 12px 0;
+}
+
+.csp-scheduling-table td {
+    padding: 10px;
+}
+
+.csp-date-input,
+.csp-time-input {
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Shortcode meta box */
+.csp-shortcode-container {
+    padding: 10px;
+}
+
+.csp-shortcode-field {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.csp-shortcode-input {
+    flex: 1;
+    margin-right: 8px;
+    font-family: monospace;
+    background-color: #f9fafb;
+    border: 1px solid #d1d5db;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.csp-copy-shortcode {
+    white-space: nowrap;
+}
+
+/* List table columns */
+.column-shortcode {
+    width: 25%;
+}
+
+.column-schedule {
+    width: 25%;
+}
+
+.column-status {
+    width: 120px;
+}
+
+/* Preview modal */
+.csp-preview-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99999;
+    display: none;
+}
+
+.csp-preview-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.csp-preview-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #6b7280;
+}
+
+.csp-preview-close:hover {
+    color: #111827;
+}
+
+/* Settings page styles */
+.csp-settings-wrap {
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+.csp-timezone-type-field {
+    margin-bottom: 10px;
+}
+
+.csp-timezone-type-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.csp-timezone-type-field .description {
+    margin-left: 5px;
+    color: #666;
+}
+
+/* How to Use page styles */
+.csp-how-to-use-wrap {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.csp-how-to-use-content {
+    padding: 20px 30px 30px;
+}
+
+.csp-how-to-use-section {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 25px;
+}
+
+.csp-how-to-use-section h2 {
+    font-size: 26px;
+    margin-top: 0;
+    color: #2271b1;
+}
+
+.csp-how-to-use-section h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #2271b1;
+}
+
+.csp-how-to-use-footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.csp-instruction-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.csp-instruction-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.csp-instruction-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.csp-instruction-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 782px) {
+    .csp-scheduling-table {
+        display: block;
+    }
+    
+    .csp-scheduling-table tr {
+        margin-bottom: 15px;
+        display: block;
+    }
+    
+    .csp-scheduling-table th,
+    .csp-scheduling-table td {
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+    }
+    
+    .csp-date-input,
+    .csp-time-input {
+        max-width: 100%;
+    }
+    
+    .column-shortcode .csp-shortcode-input {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    .column-shortcode .csp-copy-shortcode {
+        width: 100%;
+    }
+    
+    .csp-rating-actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .csp-rating-actions .button {
+        margin-bottom: 10px;
+    }
+    
+    .csp-rating-actions .button-link {
+        margin-left: 0;
+    }
+}

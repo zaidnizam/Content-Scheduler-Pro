@@ -1,0 +1,449 @@
+# Copyright (C) 2025 hacxk
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Content Scheduler Pro 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/content-scheduler-pro\n"
+"Last-Translator: hacxk\n"
+"Language-Team: Spanish <es@li.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-08T15:00:00+00:00\n"
+"PO-Revision-Date: 2025-04-08T15:30:00+00:00\n"
+"X-Generator: WP-CLI 2.8.0\n"
+"X-Domain: content-scheduler-pro\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "Content Scheduler Pro"
+msgstr "Programador de Contenido Pro"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/content-scheduler-pro/"
+msgstr "https://wordpress.org/plugins/content-scheduler-pro/"
+
+#. Description of the plugin
+msgid "Schedule content to appear and disappear automatically at set times."
+msgstr "Programa contenido para que aparezca y desaparezca automáticamente en horarios establecidos."
+
+#. Author of the plugin
+msgid "hacxk"
+msgstr "hacxk"
+
+#: includes/class-admin.php:153
+msgid "Scheduled"
+msgstr "Programado"
+
+#: includes/class-admin.php:155
+msgid "Active"
+msgstr "Activo"
+
+#: includes/class-admin.php:157
+msgid "Expired"
+msgstr "Expirado"
+
+#: includes/class-admin.php:186
+msgid "Security check failed."
+msgstr "Verificación de seguridad fallida."
+
+#: includes/class-admin.php:193
+msgid "Invalid content ID."
+msgstr "ID de contenido no válido."
+
+#: includes/class-admin.php:200
+msgid "Content not found."
+msgstr "Contenido no encontrado."
+
+#: includes/class-admin.php:226
+msgid "Active from:"
+msgstr "Activo desde:"
+
+#: includes/class-admin.php:227
+msgid "Active until:"
+msgstr "Activo hasta:"
+
+#: includes/class-meta-boxes.php:53
+msgid "Scheduling Options"
+msgstr "Opciones de Programación"
+
+#: includes/class-meta-boxes.php:61
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/class-meta-boxes.php:127
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#: includes/class-meta-boxes.php:134
+msgid "Start Time"
+msgstr "Hora de Inicio"
+
+#: includes/class-meta-boxes.php:141
+msgid "End Date"
+msgstr "Fecha de Fin"
+
+#: includes/class-meta-boxes.php:148
+msgid "End Time"
+msgstr "Hora de Fin"
+
+#: includes/class-meta-boxes.php:162
+msgid "Set the start and end dates/times for when this content should be displayed. Using WordPress timezone: %s"
+msgstr "Establece las fechas/horas de inicio y fin para cuando debería mostrarse este contenido. Usando la zona horaria de WordPress: %s"
+
+#: includes/class-meta-boxes.php:166
+msgid "Change"
+msgstr "Cambiar"
+
+#: includes/class-meta-boxes.php:184
+msgid "Use this shortcode to display the scheduled content:"
+msgstr "Usa este shortcode para mostrar el contenido programado:"
+
+#: includes/class-meta-boxes.php:188
+msgid "Copy"
+msgstr "Copiar"
+
+#: includes/class-meta-boxes.php:192
+msgid "Place this shortcode in any post, page, or widget where you want the scheduled content to appear."
+msgstr "Coloca este shortcode en cualquier entrada, página o widget donde quieras que aparezca el contenido programado."
+
+#: includes/class-post-types.php:41
+msgctxt "Post type general name"
+msgid "Scheduled Contents"
+msgstr "Contenidos Programados"
+
+#: includes/class-post-types.php:42
+msgctxt "Post type singular name"
+msgid "Scheduled Content"
+msgstr "Contenido Programado"
+
+#: includes/class-post-types.php:43
+msgctxt "Admin Menu text"
+msgid "Content Scheduler"
+msgstr "Programador de Contenido"
+
+#: includes/class-post-types.php:44
+msgctxt "Add New on Toolbar"
+msgid "Scheduled Content"
+msgstr "Contenido Programado"
+
+#: includes/class-post-types.php:45
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: includes/class-post-types.php:46
+msgid "Add New Scheduled Content"
+msgstr "Añadir Nuevo Contenido Programado"
+
+#: includes/class-post-types.php:47
+msgid "New Scheduled Content"
+msgstr "Nuevo Contenido Programado"
+
+#: includes/class-post-types.php:48
+msgid "Edit Scheduled Content"
+msgstr "Editar Contenido Programado"
+
+#: includes/class-post-types.php:49
+msgid "View Scheduled Content"
+msgstr "Ver Contenido Programado"
+
+#: includes/class-post-types.php:50
+msgid "All Scheduled Contents"
+msgstr "Todos los Contenidos Programados"
+
+#: includes/class-post-types.php:51
+msgid "Search Scheduled Contents"
+msgstr "Buscar Contenidos Programados"
+
+#: includes/class-post-types.php:52
+msgid "Parent Scheduled Contents:"
+msgstr "Contenidos Programados Padres:"
+
+#: includes/class-post-types.php:53
+msgid "No scheduled contents found."
+msgstr "No se encontraron contenidos programados."
+
+#: includes/class-post-types.php:54
+msgid "No scheduled contents found in Trash."
+msgstr "No se encontraron contenidos programados en la Papelera."
+
+#: includes/class-rating.php:95
+msgid "Enjoying Content Scheduler Pro?"
+msgstr "¿Disfrutando de Content Scheduler Pro?"
+
+#: includes/class-rating.php:101
+msgid "You've created %d scheduled content items with Content Scheduler Pro! If you find this plugin useful, would you mind taking a moment to rate it? It really helps to support the plugin and helps others discover it too!"
+msgstr "¡Has creado %d elementos de contenido programado con Content Scheduler Pro! Si encuentras útil este plugin, ¿te importaría tomarte un momento para valorarlo? ¡Realmente ayuda a mantener el plugin y ayuda a otros a descubrirlo también!"
+
+#: includes/class-rating.php:107
+msgid "Rate Now"
+msgstr "Valorar Ahora"
+
+#: includes/class-rating.php:110
+msgid "Remind Me Later"
+msgstr "Recordármelo Más Tarde"
+
+#: includes/class-rating.php:113
+msgid "I've Already Rated It"
+msgstr "Ya lo he Valorado"
+
+#: includes/class-settings.php:137
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class-settings.php:145
+msgid "How to Use"
+msgstr "Cómo Usar"
+
+#: includes/class-settings.php:167
+msgid "Timezone Settings"
+msgstr "Ajustes de Zona Horaria"
+
+#: includes/class-settings.php:174
+msgid "Timezone Source"
+msgstr "Fuente de Zona Horaria"
+
+#: includes/class-settings.php:182
+msgid "Custom Timezone"
+msgstr "Zona Horaria Personalizada"
+
+#: includes/class-settings.php:241
+msgid "Welcome to Content Scheduler Pro! 👋"
+msgstr "¡Bienvenido a Content Scheduler Pro! 👋"
+
+#: includes/class-settings.php:242
+msgid "This guide will walk you through scheduling content to appear and disappear automatically on your WordPress site. It's super easy!"
+msgstr "Esta guía te ayudará a programar contenido para que aparezca y desaparezca automáticamente en tu sitio WordPress. ¡Es muy fácil!"
+
+#: includes/class-settings.php:246
+msgid "Step 1: Create Your Content"
+msgstr "Paso 1: Crea Tu Contenido"
+
+#: includes/class-settings.php:251
+msgid "Start by clicking \"Add New\" under the Content Scheduler menu."
+msgstr "Comienza haciendo clic en \"Añadir Nuevo\" en el menú Programador de Contenido."
+
+#: includes/class-settings.php:252
+msgid "Give your content a title and use the WordPress editor to create your content just like you would with a regular post. Add text, images, buttons - whatever you need!"
+msgstr "Dale un título a tu contenido y usa el editor de WordPress para crear tu contenido como lo harías con una entrada normal. ¡Añade texto, imágenes, botones - lo que necesites!"
+
+#: includes/class-settings.php:253
+msgid "Pro Tip:"
+msgstr "Consejo Pro:"
+
+#: includes/class-settings.php:253
+msgid "Make your scheduled content stand out by adding bright colors or eye-catching images."
+msgstr "Haz que tu contenido programado destaque añadiendo colores brillantes o imágenes llamativas."
+
+#: includes/class-settings.php:259
+msgid "Step 2: Set Your Schedule"
+msgstr "Paso 2: Establece Tu Horario"
+
+#: includes/class-settings.php:262
+msgid "Below the content editor, you'll find the \"Scheduling Options\" box."
+msgstr "Debajo del editor de contenido, encontrarás la caja \"Opciones de Programación\"."
+
+#: includes/class-settings.php:263
+msgid "Set when your content should start appearing and when it should disappear:"
+msgstr "Establece cuándo debería empezar a aparecer tu contenido y cuándo debería desaparecer:"
+
+#: includes/class-settings.php:265
+msgid "Start Date & Time: When your content will begin showing"
+msgstr "Fecha y Hora de Inicio: Cuándo comenzará a mostrarse tu contenido"
+
+#: includes/class-settings.php:266
+msgid "End Date & Time: When your content will stop showing"
+msgstr "Fecha y Hora de Fin: Cuándo dejará de mostrarse tu contenido"
+
+#: includes/class-settings.php:268
+msgid "Remember:"
+msgstr "Recuerda:"
+
+#: includes/class-settings.php:268
+msgid "The time is based on the timezone in your settings."
+msgstr "La hora se basa en la zona horaria de tus ajustes."
+
+#: includes/class-settings.php:277
+msgid "Step 3: Get Your Shortcode"
+msgstr "Paso 3: Obtén Tu Shortcode"
+
+#: includes/class-settings.php:283
+msgid "On the right side of the screen, you'll see a \"Shortcode\" box with your unique shortcode."
+msgstr "En el lado derecho de la pantalla, verás una caja \"Shortcode\" con tu shortcode único."
+
+#: includes/class-settings.php:284
+msgid "Click the \"Copy\" button to copy it to your clipboard. It will look something like:"
+msgstr "Haz clic en el botón \"Copiar\" para copiarlo a tu portapapeles. Se verá algo así:"
+
+#: includes/class-settings.php:286
+msgid "Don't forget to save your content by clicking the \"Publish\" button!"
+msgstr "¡No olvides guardar tu contenido haciendo clic en el botón \"Publicar\"!"
+
+#: includes/class-settings.php:292
+msgid "Step 4: Place Your Shortcode"
+msgstr "Paso 4: Coloca Tu Shortcode"
+
+#: includes/class-settings.php:295
+msgid "Now that you have your shortcode, you can place it anywhere on your site:"
+msgstr "Ahora que tienes tu shortcode, puedes colocarlo en cualquier parte de tu sitio:"
+
+#: includes/class-settings.php:297
+msgid "In a post or page"
+msgstr "En una entrada o página"
+
+#: includes/class-settings.php:298
+msgid "In a widget area"
+msgstr "En un área de widgets"
+
+#: includes/class-settings.php:299
+msgid "In your theme's template files (for developers)"
+msgstr "En los archivos de plantilla de tu tema (para desarrolladores)"
+
+#: includes/class-settings.php:301
+msgid "Just paste your shortcode where you want the scheduled content to appear."
+msgstr "Simplemente pega tu shortcode donde quieres que aparezca el contenido programado."
+
+#: includes/class-settings.php:310
+msgid "Step 5: Manage Your Scheduled Content"
+msgstr "Paso 5: Gestiona Tu Contenido Programado"
+
+#: includes/class-settings.php:311
+msgid "You can view all your scheduled content by going to Content Scheduler → All Scheduled Contents."
+msgstr "Puedes ver todo tu contenido programado yendo a Programador de Contenido → Todos los Contenidos Programados."
+
+#: includes/class-settings.php:312
+msgid "From here, you can:"
+msgstr "Desde aquí, puedes:"
+
+#: includes/class-settings.php:314
+msgid "See which content is active, scheduled, or expired"
+msgstr "Ver qué contenido está activo, programado o expirado"
+
+#: includes/class-settings.php:315
+msgid "Edit existing content or schedule"
+msgstr "Editar contenido existente o programación"
+
+#: includes/class-settings.php:316
+msgid "Preview how your content will look"
+msgstr "Vista previa de cómo se verá tu contenido"
+
+#: includes/class-settings.php:317
+msgid "Quick-copy shortcodes"
+msgstr "Copiar rápidamente shortcodes"
+
+#: includes/class-settings.php:322
+msgid "Questions & Troubleshooting"
+msgstr "Preguntas y Solución de Problemas"
+
+#: includes/class-settings.php:323
+msgid "My content isn't showing up!"
+msgstr "¡Mi contenido no aparece!"
+
+#: includes/class-settings.php:325
+msgid "Check if the current time is between your start and end times"
+msgstr "Comprueba si la hora actual está entre tus horas de inicio y fin"
+
+#: includes/class-settings.php:326
+msgid "Make sure your timezone settings are correct"
+msgstr "Asegúrate de que tus ajustes de zona horaria son correctos"
+
+#: includes/class-settings.php:327
+msgid "Verify that you published your content (not just saved as draft)"
+msgstr "Verifica que has publicado tu contenido (no solo guardado como borrador)"
+
+#: includes/class-settings.php:328
+msgid "Try clearing your cache if your site uses caching"
+msgstr "Intenta limpiar tu caché si tu sitio usa almacenamiento en caché"
+
+#: includes/class-settings.php:331
+msgid "The shortcode just shows as text on my page"
+msgstr "El shortcode solo se muestra como texto en mi página"
+
+#: includes/class-settings.php:333
+msgid "Make sure the plugin is activated"
+msgstr "Asegúrate de que el plugin está activado"
+
+#: includes/class-settings.php:334
+msgid "Try using a different block or widget to add the shortcode"
+msgstr "Intenta usar un bloque o widget diferente para añadir el shortcode"
+
+#: includes/class-settings.php:339
+msgid "That's it! Now you can schedule content to appear and disappear automatically across your site."
+msgstr "¡Eso es todo! Ahora puedes programar contenido para que aparezca y desaparezca automáticamente en todo tu sitio."
+
+#: includes/class-settings.php:340
+msgid "If you love using Content Scheduler Pro, please consider leaving us a review!"
+msgstr "Si te encanta usar Content Scheduler Pro, ¡por favor considera dejarnos una reseña!"
+
+#: includes/class-settings.php:343
+msgid "Leave a Review"
+msgstr "Dejar una Reseña"
+
+#: includes/class-settings.php:434
+msgid "Use WordPress Timezone Setting"
+msgstr "Usar Ajuste de Zona Horaria de WordPress"
+
+#: includes/class-settings.php:438
+msgid "(Currently: %s)"
+msgstr "(Actualmente: %s)"
+
+#: includes/class-settings.php:446
+msgid "Use Custom Timezone"
+msgstr "Usar Zona Horaria Personalizada"
+
+#: includes/class-settings.php:450
+msgid "Select whether to use the WordPress timezone setting or a custom timezone for scheduled content."
+msgstr "Selecciona si usar el ajuste de zona horaria de WordPress o una zona horaria personalizada para el contenido programado."
+
+#: includes/class-settings.php:472
+msgid "Select a timezone"
+msgstr "Seleccionar una zona horaria"
+
+#: includes/class-settings.php:484
+msgid "Select a timezone to use for scheduling content. This will only be used if \"Use Custom Timezone\" is selected above."
+msgstr "Selecciona una zona horaria para programar contenido. Esto solo se usará si \"Usar Zona Horaria Personalizada\" está seleccionado arriba."
+
+#: includes/class-settings.php:551
+msgid "Africa"
+msgstr "África"
+
+#: includes/class-settings.php:570
+msgid "America"
+msgstr "América"
+
+#: includes/class-settings.php:592
+msgid "Asia"
+msgstr "Asia"
+
+#: includes/class-settings.php:612
+msgid "Australia & Pacific"
+msgstr "Australia y Pacífico"
+
+#: includes/class-settings.php:627
+msgid "Europe"
+msgstr "Europa"
+
+#: includes/class-settings.php:661
+msgid "Timezone Help"
+msgstr "Ayuda con Zona Horaria"
+
+#: includes/class-settings.php:662
+msgid "Timezone Settings Help"
+msgstr "Ayuda con Ajustes de Zona Horaria"
+
+#: includes/class-settings.php:663
+msgid "The timezone setting affects when your scheduled content appears and disappears."
+msgstr "El ajuste de zona horaria afecta cuándo aparece y desaparece tu contenido programado."
+
+#: includes/class-settings.php:665
+msgid "<strong>WordPress Timezone:</strong> Uses the timezone set in Settings → General. If you manage all your site date/time settings there, this is the simplest option."
+msgstr "<strong>Zona Horaria de WordPress:</strong> Usa la zona horaria establecida en Ajustes → General. Si gestionas todos los ajustes de fecha/hora de tu sitio allí, esta es la opción más simple."
+
+#: includes/class-settings.php:666
+msgid "<strong>Custom Timezone:</strong> Allows you to select a specific timezone just for scheduled content, which can be different from your main WordPress timezone."
+msgstr "<strong>Zona Horaria Personalizada:</strong> Te permite seleccionar una zona horaria específica solo para contenido programado, que puede ser diferente de tu zona horaria principal de WordPress."
+
+#: includes/class-settings.php:668
+msgid "If your content is not appearing when expected, double-check that your timezone settings match your expectations."
+msgstr "Si tu contenido no aparece cuando se espera, verifica que tus ajustes de zona horaria coinciden con tus expectativas."
